@@ -6,5 +6,10 @@
         {
             return firstNumber + secondNumber;
         }
+
+        public static int Mul(int firstNumber, int secondNumber)
+        {
+            return firstNumber * secondNumber;
+        }
     }
 }

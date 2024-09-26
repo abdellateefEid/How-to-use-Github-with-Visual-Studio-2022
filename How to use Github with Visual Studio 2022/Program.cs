@@ -11,7 +11,12 @@
             int firstNumber = int.Parse(input[0]);
             int secondNumber = int.Parse(input[1]);
 
-            Console.WriteLine(Math.Sum(firstNumber, secondNumber));
+
+            Console.WriteLine($"Sum = {Math.Sum(firstNumber, secondNumber)}");
+
+            Console.WriteLine($"Mul = {Math.Mul(firstNumber, secondNumber)}");
+
+
 
         }
     }
