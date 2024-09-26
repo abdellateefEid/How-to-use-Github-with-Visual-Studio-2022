@@ -4,7 +4,11 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            int firstNumber = 0;
+            int secondNumber = 0;
+
+            Console.WriteLine(firstNumber + secondNumber);
+
         }
     }
 }
