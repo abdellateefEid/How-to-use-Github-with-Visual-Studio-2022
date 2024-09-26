@@ -9,7 +9,7 @@
 
         public static int Mul(int firstNumber, int secondNumber)
         {
-            return firstNumber - secondNumber;
+            return firstNumber * secondNumber;
         }
     }
 }
