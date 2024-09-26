@@ -2,12 +2,17 @@
 {
     internal class Program
     {
+
+        public static int Sum(int x, int y)
+        {
+            return x + y;
+        }
         static void Main(string[] args)
         {
-            int firstNumber = 0;
-            int secondNumber = 0;
+            int firstNumber = 1;
+            int secondNumber = 2;
 
-            Console.WriteLine(firstNumber + secondNumber);
+            Console.WriteLine(Sum(firstNumber, secondNumber));
 
         }
     }
