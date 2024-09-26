@@ -6,8 +6,10 @@
 
         static void Main(string[] args)
         {
-            int firstNumber = 1;
-            int secondNumber = 2;
+            string[] input = Console.ReadLine().Split();
+
+            int firstNumber = int.Parse(input[0]);
+            int secondNumber = int.Parse(input[1]);
 
             Console.WriteLine(Math.Sum(firstNumber, secondNumber));
 
